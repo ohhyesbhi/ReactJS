@@ -1,0 +1,23 @@
+.shopping-Items-Wrapper{
+    min-width: 100%;
+    max-width: 700px;
+}
+
+.items-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.icon{
+    background-color:var(--light-blue); 
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.icon:hover{
+    color: grey;
+    cursor: pointer;
+}
+

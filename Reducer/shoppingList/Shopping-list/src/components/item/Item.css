@@ -1,0 +1,16 @@
+.item-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-name{
+    flex-basis: 80%;
+    font-size: x-large;
+}
+
+.item-quantity{
+    font-size: x-large;
+    color: red;
+}

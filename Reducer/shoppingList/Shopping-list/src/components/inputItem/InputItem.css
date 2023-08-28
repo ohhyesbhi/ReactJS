@@ -1,0 +1,29 @@
+.itemInputWrapper{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.addBtn{
+    background-color: var(--light-yellow);
+    border: 0;
+    border-radius: 0.2rem;
+    color: white;
+    width: 50px;
+    height: 25px;
+}
+
+.addBtn:hover{
+    cursor: pointer;
+    color: black;
+}
