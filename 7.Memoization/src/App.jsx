@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import './App.css'
 import Todo from './components/Todo'
 
@@ -23,10 +23,12 @@ function App() {
   // but still it is re-rendering that is because whenever our page starts re-rendering the functions are recreated again and now we can the render
   // function will be recreated again so now for child component it thinks that in function something has been changed
 
-  const render = () =>{
+  //--> Now actually we can use useCallback function with passing the dependency array empty
+
+  const render = useCallback(() =>{
     // simple operations are done
-  }
-          
+  },[])          
+  
  return(
   <>
     <Todo todos={todos} render={render}/>
