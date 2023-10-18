@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { memo } from "react";
 
 function Todo({todos}) {
     console.log(todos)
@@ -19,4 +19,4 @@ function Todo({todos}) {
   )
 }
 
-export default Todo;
+export default memo(Todo);
